@@ -119,9 +119,6 @@ const EDUCATION = [
       "Presented a Group Final Project applying the full Excel toolkit to a real dataset, as part of the program's capstone Group Project Presentation session.",
       "Completed the program's Career Class module covering CV strategy, LinkedIn profile building, and job interview preparation.",
     ],
-    awards: [
-      "Certificate of Participation — PT Linimuda Inspirasi Negeri (MySkill)",
-    ],
   },
   {
     role: "Data Analytics",
