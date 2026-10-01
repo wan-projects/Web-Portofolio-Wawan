@@ -109,6 +109,21 @@ const EDUCATION = [
     ],
   },
   {
+    role: "Microsoft Excel Basic to Advanced — Fullstack Intensive Bootcamp",
+    org: "MySkill (Batch 30)",
+    date: "Oct 2025 – Dec 2025",
+    location: "Remote from Brebes, Central Java",
+    type: "edu",
+    points: [
+      "Completed a 5-week intensive Excel bootcamp (Oct 30 – Dec 2, 2025) covering core formulas & functions, data formatting and cleansing, conditional IF/ELSE logic, data validation, VLOOKUP/INDEX-MATCH, data visualization, Pivot Tables, Dashboard Reporting, and Macro VBA.",
+      "Presented a Group Final Project applying the full Excel toolkit to a real dataset, as part of the program's capstone Group Project Presentation session.",
+      "Completed the program's Career Class module covering CV strategy, LinkedIn profile building, and job interview preparation.",
+    ],
+    awards: [
+      "Certificate of Participation — PT Linimuda Inspirasi Negeri (MySkill)",
+    ],
+  },
+  {
     role: "Data Analytics",
     org: "Kementerian Komunikasi dan Informatika RI × Google (Coursera)",
     date: "Apr 2024 – Jul 2024",
