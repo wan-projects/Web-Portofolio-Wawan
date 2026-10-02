@@ -302,6 +302,13 @@ const PROJECTS = [
     link: "https://github.com/wan-projects/Simple-and-Multiple-Regression-Models-Supervised-Practical-Guidance",
   },
   {
+    title: "Indonesia Coffee Production Dashboard",
+    category: "DA / DS",
+    desc: "Interactive Tableau dashboard analyzing Indonesian coffee production, peak harvest timing by province, and real coffee-market pricing in West Java. Integrates BPS and Open Data Jabar statistics with 8,816 real marketplace listings collected via a custom Selenium + BeautifulSoup scraper, visualized across 5 linked views (choropleth map, treemap, bar chart, heatmap table, and packed-bubble chart). Live dashboard: public.tableau.com/views/Project_v2_17194805411690/Dashboard1",
+    tech: ["Tableau", "Python", "Selenium", "BeautifulSoup", "Pandas", "Excel"],
+    link: "https://github.com/wan-projects/Coffee-Production-Indonesia-Tableau-Dashboard",
+  },
+  {
     title: "Advanced Exploratory Data Analysis",
     category: "DA / DS",
     desc: "Data Analyst Bootcamp module on advanced EDA techniques: a guided walkthrough (stratified sampling, cross-tabulation, group-by aggregation, automated profiling) paired with a full case study on 4,870 UK online-retail transactions — feature-engineered from raw timestamps (TotalSales, day/month/hour, time-of-day buckets) to answer 5 business questions covering revenue trends, geographic spread, peak spending windows, top customers, and best-selling products.",
