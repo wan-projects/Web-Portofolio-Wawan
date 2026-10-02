@@ -33,7 +33,7 @@ const WORK = [
     location: "South Jakarta, DKI Jakarta | Internship · Hybrid Working",
     type: "work",
     points: [
-      "Built a coffee commodity supply & demand monitoring dashboard using Tableau Public, integrating BPS and Open Data Jabar datasets for interactive analysis of price trends, production volumes, and peak harvest seasons.",
+      "Built a coffee commodity supply & demand monitoring dashboard using Tableau Public, integrating BPS and Open Data Jabar datasets for interactive analysis of price trends, production volumes, and peak harvest seasons. (Live dashboard: public.tableau.com/views/Project_v2_17194805411690/Dashboard1 · Code: github.com/wan-projects/Coffee-Production-Indonesia-Tableau-Dashboard)",
       "Extracted coffee price data via Python web scraping across multiple e-commerce platforms to establish a standardized, high-accuracy commodity price database.",
       "Managed monthly commodity price database updates and compiled potential buyer records within the B2B marketplace ecosystem, streamlining transaction processing (PO, BAST, invoicing) and reducing turnaround times.",
       "Collaborated with Operations and After-Sales teams through weekly progress reports to evaluate agricultural business strategies and optimize field-based operational problem-solving.",
