@@ -33,7 +33,7 @@ const WORK = [
     location: "South Jakarta, DKI Jakarta | Internship · Hybrid Working",
     type: "work",
     points: [
-      "Built a coffee commodity supply & demand monitoring dashboard using Tableau Public, integrating BPS and Open Data Jabar datasets for interactive analysis of price trends, production volumes, and peak harvest seasons. (Live dashboard: public.tableau.com/views/Project_v2_17194805411690/Dashboard1 · Code: github.com/wan-projects/Coffee-Production-Indonesia-Tableau-Dashboard)",
+      "Built a coffee commodity supply & demand monitoring dashboard using Tableau Public, integrating BPS and Open Data Jabar datasets for interactive analysis of price trends, production volumes, and peak harvest seasons. ([Live dashboard](https://public.tableau.com/views/Project_v2_17194805411690/Dashboard1) · [Code](https://github.com/wan-projects/Coffee-Production-Indonesia-Tableau-Dashboard))",
       "Extracted coffee price data via Python web scraping across multiple e-commerce platforms to establish a standardized, high-accuracy commodity price database.",
       "Managed monthly commodity price database updates and compiled potential buyer records within the B2B marketplace ecosystem, streamlining transaction processing (PO, BAST, invoicing) and reducing turnaround times.",
       "Collaborated with Operations and After-Sales teams through weekly progress reports to evaluate agricultural business strategies and optimize field-based operational problem-solving.",
@@ -237,6 +237,37 @@ const EDUCATION = [
   },
 ];
 
+// Mem-parsing sintaks [teks](url) di dalam bullet point jadi link yang bisa diklik
+const renderPointWithLinks = (text) => {
+  const linkPattern = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts = [];
+  let lastIndex = 0;
+  let match;
+  let key = 0;
+
+  while ((match = linkPattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    parts.push(
+      <a
+        key={key++}
+        href={match[2]}
+        target="_blank"
+        rel="noreferrer"
+        className="tl-point-link"
+      >
+        {match[1]}
+      </a>
+    );
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  return parts;
+};
+
 const Experience = () => {
   const [tab, setTab] = useState("work");
   const items = tab === "work" ? WORK : EDUCATION;
@@ -284,9 +315,7 @@ const Experience = () => {
                   </div>
                 </div>
                 <ul className="tl-points">
-                  {item.points.map((p, j) => (
-                    <li key={j}>{p}</li>
-                  ))}
+                  {item.points.map((p, j) => <li key={j}>{renderPointWithLinks(p)}</li>)}
                 </ul>
                 {item.awards && (
                   <div className="tl-awards">
