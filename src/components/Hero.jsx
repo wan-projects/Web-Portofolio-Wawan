@@ -52,11 +52,20 @@ const Hero = () => {
           </h2>
           <p className="hero-bio">
             AI/ML Engineer and Data Scientist with{" "}
-            <strong>hands-on experience across the full modern AI stack</strong>{" "}
-            — from classical ML and deep learning to Agentic AI, RAG, and LLM
-            applications. Published <strong>IEEE researcher</strong> with a{" "}
-            <strong>BNSP Associate Data Scientist</strong> certification. Strong
-            academic foundation — S1 Informatika Unas, GPA 3.92 (Cum Laude).
+            <strong>hands-on experience across the modern AI ecosystem</strong>{" "}
+            — spanning classical machine learning, deep learning, Agentic AI,
+            RAG, and LLM-based application development. Technical foundation
+            in <strong>Cloud Computing</strong> architecture, particularly
+            Google Cloud Platform (GCP). Published research in{" "}
+            <strong>IEEE Xplore</strong>{" "}
+            and holds <strong>BNSP Associate Data Scientist</strong> and{" "}
+            <strong>Certiport Data Analytics</strong> certifications.
+            Graduated with a Bachelor's degree in Informatics from
+            Universitas Nasional, GPA 3.92. Currently{" "}
+            <strong>open to career opportunities</strong> as a Data Analyst,
+            Data Scientist, AI/ML Engineer, or Cloud Engineer. Has a strong
+            passion for leveraging data, AI technology, and cloud computing
+            to build impactful solutions.
           </p>
           <div className="hero-cta">
             <a href="#projects" className="btn-primary">
