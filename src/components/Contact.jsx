@@ -9,12 +9,9 @@ const Contact = () => (
       <div className="contact-inner fade-in-section">
         <h2 className="contact-title">Let's Work Together</h2>
         <p className="contact-desc">
-          I'm a Data Scientist and AI/ML Engineer with hands-on experience
-          across classical ML, deep learning, computer vision, NLP, and
-          LLM/agentic AI systems. Open to full-time roles, research
-          collaborations, and freelance projects — whether you have an
-          opportunity, an idea, or just want to talk about data and AI, my inbox
-          is always open!
+          Currently open to Data Analyst or Data Scientist roles, with a growing interest in Data,
+          AI/ML, and Cloud Computing. Feel free to reach out for opportunities,
+          project ideas, or just to talk data and AI.
         </p>
         <a
           href="mailto:wawn.1106@gmail.com"
