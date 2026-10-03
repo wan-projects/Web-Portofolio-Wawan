@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import profileImg from "../assets/profile.png";
 
-const ROLES = ["AI Engineer", "ML Engineer", "Data Scientist", "Data Analyst"];
+const ROLES = ["AI/ML Engineer", "Data Scientist", "Data Analyst"];
 
 const Hero = () => {
   const [displayed, setDisplayed] = useState("");
@@ -51,17 +51,13 @@ const Hero = () => {
             <span className="cursor">|</span>
           </h2>
           <p className="hero-bio">
-            AI/ML Engineer and Data Scientist with{" "}
-            <strong>hands-on experience across the modern AI ecosystem</strong>{" "}
-            — spanning classical machine learning, deep learning, Agentic AI,
-            RAG, and LLM-based application development. Technical foundation
-            in <strong>Cloud Computing</strong> architecture, particularly
-            Google Cloud Platform (GCP). Published research in{" "}
-            <strong>IEEE Xplore</strong>{" "}
-            and holds <strong>BNSP Associate Data Scientist</strong> and{" "}
+            AI/ML Engineer and Data Scientist experienced in classical ML,
+            deep learning, Agentic AI, RAG, and LLM applications, with a{" "}
+            <strong>Cloud Computing</strong> foundation on GCP. Published in{" "}
+            <strong>IEEE Xplore</strong>,{" "}
+            holding <strong>BNSP Associate Data Scientist</strong> and{" "}
             <strong>Certiport Data Analytics</strong> certifications.
-            Graduated with a Bachelor's degree in Informatics from
-            Universitas Nasional, GPA 3.92.
+            Informatics graduate, Universitas Nasional — GPA 3.92.
           </p>
           <div className="hero-cta">
             <a href="#projects" className="btn-primary">
