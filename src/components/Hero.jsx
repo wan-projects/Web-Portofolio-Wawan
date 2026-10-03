@@ -61,11 +61,7 @@ const Hero = () => {
             and holds <strong>BNSP Associate Data Scientist</strong> and{" "}
             <strong>Certiport Data Analytics</strong> certifications.
             Graduated with a Bachelor's degree in Informatics from
-            Universitas Nasional, GPA 3.92. Currently{" "}
-            <strong>open to career opportunities</strong> as a Data Analyst,
-            Data Scientist, AI/ML Engineer, or Cloud Engineer. Has a strong
-            passion for leveraging data, AI technology, and cloud computing
-            to build impactful solutions.
+            Universitas Nasional, GPA 3.92.
           </p>
           <div className="hero-cta">
             <a href="#projects" className="btn-primary">
