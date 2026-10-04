@@ -125,7 +125,7 @@ const About = () => (
             computer vision, to{" "}
             <strong>
               computer vision to Large Language Models (LLMs) and agentic AI
-              development.
+              development
             </strong>
             .
           </p>
