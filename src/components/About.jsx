@@ -27,6 +27,8 @@ const SKILL_GROUPS = [
       "Optuna",
       "PyCaret",
       "Ensemble Learning",
+      "imbalanced-learn",
+      "LazyPredict",
     ],
   },
   {
@@ -38,6 +40,7 @@ const SKILL_GROUPS = [
       "YOLOv8",
       "CLIP",
       "Stable Diffusion",
+      "Diffusers",
       "ComfyUI",
       "ONNX Runtime",
     ],
@@ -64,6 +67,8 @@ const SKILL_GROUPS = [
       "Statsmodels",
       "SciPy",
       "Time Series (ARIMA/SARIMA)",
+      "YData Profiling",
+      "Feature-engine",
     ],
   },
   {
@@ -74,6 +79,9 @@ const SKILL_GROUPS = [
       "HTML",
       "CSS",
       "Bootstrap",
+      "Flask",
+      "Node.js / Express",
+      "Docker",
       "Google Antigravity",
       "Visual Studio Code",
       "Google Colab",
@@ -85,6 +93,8 @@ const SKILL_GROUPS = [
       "MySQL",
       "FastAPI",
       "Streamlit",
+      "Selenium",
+      "BeautifulSoup",
       "Git & GitHub",
       "Google Sheets/Spreadsheets",
       "Microsoft Excel",
@@ -105,33 +115,88 @@ const About = () => (
       <div className="about-wrap fade-in-section">
         <div className="about-body">
           <p>
-            I'm a <strong>Data Scientist and AI/ML Engineer</strong> with a
-            background in Informatics, specializing in building end-to-end
-            machine learning and AI systems — from classical ML, deep learning,
-            and computer vision to modern LLM-powered and agentic applications.
+            I am an Informatics professional passionate about{" "}
+            <strong>
+              Data Analytics, Data Science, Artificial Intelligence/Machine
+              Learning (AI/ML), and Cloud Computing
+            </strong>
+            . I have experience building end-to-end machine learning and AI
+            systems — from classical machine learning, deep learning, and
+            computer vision, to{" "}
+            <strong>
+              computer vision to Large Language Models (LLMs) and agentic AI
+              development.
+            </strong>
+            .
           </p>
           <p>
-            My undergraduate thesis built a{" "}
-            <strong>VGG16-style CNN from scratch</strong> to classify 20
-            Javanese script characters, pairing a custom 5-stage preprocessing
-            pipeline (interpolation, grayscale conversion, Laplacian-of-Gaussian
-            edge detection, thresholding, and normalization) with SGD-tuned
-            hyperparameters to reach{" "}
-            <strong>0.99 training and 0.94 testing accuracy</strong> on a
-            4,357-image dataset — peer-reviewed and presented at the{" "}
-            <strong>8th IEEE ICITISEE 2024</strong> international conference in
-            Yogyakarta.
+            I have applied and tested these competencies in industry through
+            several strategic roles. As a{" "}
+            <strong>
+              Data Scientist (Project-Based) at Home Credit Indonesia
+            </strong>{" "}
+            with Rakamin Academy, I built a credit risk prediction model using
+            307,511 loan application records, achieving an evaluation score of
+            88.34. As a{" "}
+            <strong>Research Analyst at PT Surya Citra Media Tbk</strong>{" "}
+            (Indosiar & SINPO TV), I was responsible for analyzing the
+            performance of flagship programs and television stations — covering
+            rating, share, and audience segmentation metrics — and migrated over
+            10,000 historical broadcast records from Excel to a PostgreSQL
+            database using Python. Previously, as a{" "}
+            <strong>Data Scientist Intern at Agree by Telkom Indonesia</strong>,
+            I built a Tableau-based coffee commodity monitoring dashboard
+            integrating data from BPS and Open Data Jabar.
           </p>
           <p>
-            Strong academic foundation —{" "}
+            My research interest is reflected in my undergraduate thesis, where
+            I built a{" "}
+            <strong>
+              Convolutional Neural Network (CNN) with a VGG16 architecture
+            </strong>{" "}
+            to classify 20 Javanese script characters. By combining a five-stage
+            preprocessing pipeline with Stochastic Gradient Descent (SGD)-based
+            hyperparameter tuning, the model achieved{" "}
+            <strong>0.99 training accuracy and 0.94 testing accuracy</strong>{" "}
+            across 4,357 images. This research was presented at the{" "}
+            <strong>IEEE-affiliated international conference</strong>, the 2024
+            8th International Conference on Information Technology, Information
+            Systems and Electrical Engineering (ICITISEE), in Yogyakarta,
+            jointly organized by Universitas Amikom Yogyakarta, Universitas
+            Amikom Purwokerto, and Universitas Gadjah Mada (UGM).
+          </p>
+          <p>
+            Academically, I hold{" "}
             <span className="about-hl">
-              S1 Informatika, Universitas Nasional, GPA 3.92 (Cum Laude)
+              a Bachelor's degree in Informatics from Universitas Nasional
+              (UNAS) with a Cumulative Grade Point Average (GPA) of 3.92/4.00
             </span>
-            . Completed an intensive Data Science & Machine Learning bootcamp
-            (DSML Batch 41, Dibimbing) spanning statistics and classical ML
-            through deep learning, NLP, computer vision, and LLM/agentic
-            systems, and hold a <strong>BNSP Associate Data Scientist</strong>{" "}
-            certification.
+            . My analytical and technical foundation is further validated by
+            several professional certifications, including the{" "}
+            <strong>Google Data Analytics Professional Certificate</strong>,{" "}
+            <strong>Associate Data Scientist</strong> from the National
+            Professional Certification Agency (BNSP), and{" "}
+            <strong>IT Specialist Data Analytics</strong> from Certiport. I am
+            also a graduate of the{" "}
+            <strong>Bangkit Academy Cloud Computing track</strong>, a
+            prestigious career-readiness program backed by Google, GoTo, and
+            Traveloka.
+          </p>
+          <p>
+            To stay current with technological developments, I am actively
+            deepening my expertise through various training programs and
+            bootcamps, including the{" "}
+            <strong>
+              Data Science & AI Machine Learning Bootcamp at Dibimbing.id
+            </strong>
+            , with a comprehensive curriculum spanning statistics and classical
+            machine learning through to deep learning, Natural Language
+            Processing (NLP), computer vision, and LLM and agentic AI systems. I
+            have a strong passion for creating data-, AI-, and cloud-driven
+            business solutions. I am currently{" "}
+            <strong>open to career opportunities</strong> as a Data Analyst,
+            Data Scientist, AI/ML Engineer, Cloud Engineer, or other strategic
+            roles within the IT field.
           </p>
         </div>
 
