@@ -21,7 +21,7 @@ const WORK = [
     type: "work",
     points: [
       "Tracked and forecasted daily Rating & Share (TVR/TVS) performance for two flagship national broadcast programs, based on Nielsen audience-measurement data, using Minute by Minute (MBM) analysis to translate viewer behavior patterns into scheduling and content recommendations for the programming team.",
-      "Built an automated VBA macro-based calculation system for routine rating/share calculations and reporting, replacing manual spreadsheet processes and reducing the risk of manual calculation errors.",
+      "Built an automated VBA macro-based calculation system for routine rating/share calculations and reporting, replacing manual Excel processes and reducing the risk of manual calculation errors.",
       "Designed a normalized relational data model (25+ interlinked PostgreSQL tables) and automated the migration of 10,000+ historical FTV records from Excel (.xlsb) into it using Python (Pandas & SQLAlchemy).",
       "Built a CRUD and data-entry web application (Flask/Python backend) for the FTV database — a structured input form plus monitoring tools — replacing manual Excel updates with validated data entries directly into PostgreSQL.",
     ],
