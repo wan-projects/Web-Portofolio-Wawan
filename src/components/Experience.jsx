@@ -20,10 +20,10 @@ const WORK = [
     location: "South Jakarta, DKI Jakarta | Contract · On-Site",
     type: "work",
     points: [
-      "Analyzed and predicted daily performance of flagship programs (BRI Super League on Indosiar, Pegadaian Championship on SINPO TV) through audience share tracking and viewer behavior segmentation, delivering strategic scheduling and product recommendations to programming teams.",
-      "Transformed manual data workflows into a structured relational database system, improving data accuracy, consistency, and reporting efficiency for historical broadcast data.",
-      "Migrated 10,000+ FTV records from Excel (.xlsb) to PostgreSQL across 25+ normalized relational tables using Python (Pandas & SQLAlchemy), significantly improving data accessibility for reporting.",
-      "Built a centralized internal web application using Flask, Bootstrap, and JavaScript to streamline CRUD processes and monitoring, accelerating end-to-end data analysis workflows.",
+      "Tracked and forecasted daily Rating & Share (TVR/TVS) performance for two flagship national broadcast programs, based on Nielsen audience-measurement data, using Minute by Minute (MBM) analysis to translate viewer behavior patterns into scheduling and content recommendations for the programming team.",
+      "Built an automated VBA macro-based calculation system for routine rating/share calculations and reporting, replacing manual spreadsheet processes and reducing the risk of manual calculation errors.",
+      "Designed a normalized relational data model (25+ interlinked PostgreSQL tables) and automated the migration of 10,000+ historical FTV records from Excel (.xlsb) into it using Python (Pandas & SQLAlchemy).",
+      "Built a CRUD and data-entry web application (Flask/Python backend) for the FTV database — a structured input form plus monitoring tools — replacing manual Excel updates with validated data entries directly into PostgreSQL.",
     ],
   },
   {
@@ -258,7 +258,7 @@ const renderPointWithLinks = (text) => {
         className="tl-point-link"
       >
         {match[1]}
-      </a>
+      </a>,
     );
     lastIndex = match.index + match[0].length;
   }
@@ -315,7 +315,9 @@ const Experience = () => {
                   </div>
                 </div>
                 <ul className="tl-points">
-                  {item.points.map((p, j) => <li key={j}>{renderPointWithLinks(p)}</li>)}
+                  {item.points.map((p, j) => (
+                    <li key={j}>{renderPointWithLinks(p)}</li>
+                  ))}
                 </ul>
                 {item.awards && (
                   <div className="tl-awards">
